@@ -1,0 +1,162 @@
+# =========================
+# General
+# =========================
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+venv/
+ENV/
+env/
+env.bak/
+.venv
+.venv.bak/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Pyre type checker
+.pyre/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDE directories
+.vscode/
+.idea/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+*.swp
+
+# =========================
+# Frontend
+# =========================
+
+# Output directories
+dist/
+build/
+.next/
+out/
+.nuxt/
+.cache/
+public
+
+# Gatsby files
+.cache/
+public/
+
+
+# =========================
+# Backend (Python)
+# =========================
+
+# Poetry
+poetry.lock  # Ensure this line is NOT in the .gitignore file
+.pdm.toml
+pdm.lock
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyderworkspace
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+
+# =========================
+# Project specific
+# =========================
+# folder
+instance/
+backend/alembic/version/*.*
+
+# files
+*.spec
+*.db
+*.db-journal
+*.db-shm
+*.db-wal

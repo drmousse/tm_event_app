@@ -1,0 +1,12 @@
+Generic single-database configuration.
+
+Falls es keinen Ordner Versions gibt, dann einen erstellen.
+
+Mit
+    alembic revision -m "inhalt der änderungs" --autogenerate
+
+werden die Befehle zur Datenbankänderung vorbereitet und mit
+
+    alembic upgrade head
+
+werden diese ausgeführt.

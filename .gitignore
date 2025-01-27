@@ -39,7 +39,7 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
+
 downloads/
 eggs/
 .eggs/
@@ -96,17 +96,17 @@ Thumbs.db
 # =========================
 
 # Output directories
-dist/
+
 build/
 .next/
 out/
 .nuxt/
 .cache/
-public
+
 
 # Gatsby files
 .cache/
-public/
+
 
 
 # =========================
